@@ -1,0 +1,649 @@
+:root {
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-24: 24px;
+  --fs-25: 25px;
+  --fs-26: 26px;
+  --fs-28: 28px;
+  --fs-30: 30px;
+  --fs-48: 48px;
+  --fs-64: 64px;
+  /* clr */
+  --white: #ffffff;
+  --white-fc: #fcfcfc;
+  --black: #000000;
+  --clr-111: #111111;
+  --l-green: #baff00;
+  --blk-0c: #0c0c0c;
+  --bdr-blk: #ffffff29;
+  --mix-green: #baff0099;
+  --bg-baf: #baff001a;
+  --bg-dblue: rgba(186, 255, 0, 0.06);
+  --green-l: rgba(186, 255, 0, 1);
+  --D-green: rgba(186, 255, 0, 0.4);
+  --bg-255: rgba(255, 255, 255, 0.16);
+  --d-blueMix: rgba(138, 234, 68, 0.2);
+  --sh-green: rgba(138, 234, 68, 0.1);
+  --sh-b124: rgba(124, 246, 35, 0.1);
+  --shadow-green: rgba(124, 246, 35, 0.2);
+  --sh-blue: rgba(35, 193, 206, 0.2);
+  --shadow-blue: rgba(186, 255, 0, 0.2);
+  --shdow-bblue: rgba(35, 193, 206, 0.1);
+  --db-gradient: linear-gradient(to right, #273115, #121e1c);
+  /* ~~ */
+  --blk-gradient: rgba(18, 18, 18, 0.6);
+  --min-gradinet: linear-gradient(
+    180deg,
+    rgba(12, 12, 12, 0.44) 25.4%,
+    rgba(17, 17, 16, 0.29) 25.4%,
+    #0c0c0c 70.63%
+  );
+  --d-gradinet: linear-gradient(
+    180deg,
+    rgba(12, 12, 12, 0.44) 25.4%,
+    rgba(17, 17, 16, 0) 25.4%,
+    #0c0c0c 70.63%
+  );
+}
+/*--------------------------- clr --------------- */
+.clr-111 {
+  color: var(--clr-111);
+}
+.clr-l-green {
+  color: var(--l-green);
+}
+.clr-black {
+  color: var(--black);
+}
+.clr-white {
+  color: var(--white);
+}
+/*  */
+.bg-black {
+  background-color: var(--black);
+}
+.bg-white {
+  background-color: var(--white);
+}
+
+/* -------------------------font-size----------- */
+.fs-12 {
+  font-size: var(--fs-12);
+}
+.fs-14 {
+  font-size: var(--fs-14);
+}
+.fs-16 {
+  font-size: var(--fs-16);
+}
+.fs-18 {
+  font-size: var(--fs-18);
+}
+.fs-20 {
+  font-size: var(--fs-20);
+}
+.fs-22 {
+  font-size: var(--fs-22);
+}
+.fs-24 {
+  font-size: var(--fs-24);
+}
+.fs-25 {
+  font-size: var(--fs-25);
+}
+.fs-26 {
+  font-size: var(--fs-26);
+}
+.fs-28 {
+  font-size: var(--fs-28);
+}
+.fs-30 {
+  font-size: var(--fs-30);
+}
+.fs-48 {
+  font-size: var(--fs-48);
+}
+.fs-64 {
+  font-size: var(--fs-64);
+}
+
+/* -------------------------line-height-------------- */
+
+.lh-12 {
+  line-height: 12px;
+}
+.lh-16 {
+  line-height: 16px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-26 {
+  line-height: 26px;
+}
+.lh-28 {
+  line-height: 28px;
+}
+.lh-32 {
+  line-height: 32px;
+}
+.lh-36 {
+  line-height: 36px;
+}
+.lh-40 {
+  line-height: 40px;
+}
+.lh-44 {
+  line-height: 44px;
+}
+.lh-48 {
+  line-height: 48px;
+}
+.lh-52 {
+  line-height: 52px;
+}
+.lh-57 {
+  line-height: 57px;
+}
+.lh-61 {
+  line-height: 61px;
+}
+/* ----------------------------------responsive----------------- */
+@media (max-width: 1400px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 44px;
+    --fs-64: 64px;
+  }
+  .py-103-80 {
+    padding: 90px 0 80px;
+  }
+  .lh-57 {
+    line-height: 54px;
+  }
+  .py-114 {
+    padding: 90px 0;
+  }
+  .layer-3 {
+    height: 90px;
+  }
+  .py-101 {
+    padding: 90px 0;
+  }
+  .py-80-171 {
+    padding: 80px 0 90px;
+  }
+  .pb-140 {
+    padding-bottom: 90px;
+  }
+  .getTouchCard {
+    padding: 60px 32px;
+  }
+  .layer-4 {
+    height: 90px;
+  }
+  .header-bg {
+    background-image: url(../img/png/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .lh-61 {
+    line-height: 70px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 40px;
+    --fs-64: 64px;
+  }
+  .py-103-80 {
+    padding: 80px 0;
+  }
+  .py-114 {
+    padding: 80px 0;
+  }
+  .layer-3 {
+    height: 80px;
+  }
+  .layer-4 {
+    height: 80px;
+  }
+  .py-87-80 {
+    padding: 80px 0;
+  }
+  .py-101 {
+    padding: 80px 0;
+  }
+  .py-80-171 {
+    padding: 80px 0;
+  }
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+  .serviceCard {
+    padding: 40px 12px;
+    min-height: 326px;
+  }
+  .container_1140 {
+    max-width: 960px;
+  }
+  .max-513 {
+    max-width: 420px;
+  }
+  .max-542 {
+    max-width: 419px;
+  }
+}
+@media (max-width: 991.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 40px;
+    --fs-64: 64px;
+  }
+  .moblieView {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    transition: 300ms linear;
+    min-height: 100vh !important;
+    width: 100%;
+    background-color: var(--blk-0c);
+  }
+  .overflow_hide {
+    overflow: hidden;
+  }
+  .menu {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .menu span:nth-child(1) {
+    display: block;
+    width: 40px;
+    height: 4px;
+    transition: 300ms linear;
+    border-radius: 10px;
+    background: var(--l-green);
+  }
+  .menu span:nth-child(2) {
+    display: block;
+    width: 40px;
+    height: 4px;
+    transition: 300ms linear;
+    border-radius: 10px;
+    background: var(--l-green);
+  }
+  .menu span:nth-child(3) {
+    display: block;
+    width: 40px;
+    height: 4px;
+    transition: 300ms linear;
+    border-radius: 10px;
+    background: var(--l-green);
+  }
+  .cross :nth-child(1) {
+    transition: 300ms linear;
+    transform: rotate(48deg) translateY(18px);
+  }
+  .cross :nth-child(2) {
+    transition: 300ms linear;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  .cross :nth-child(3) {
+    transition: 300ms linear;
+    transform: rotate(-48deg) translateY(-18px);
+  }
+  .py-103-80 {
+    padding: 70px 0;
+  }
+  .datacard {
+    max-width: 100%;
+  }
+  .card-1 {
+    max-width: 100%;
+  }
+  .lh-57 {
+    line-height: 48px;
+  }
+  .lh-52 {
+    line-height: 34px;
+  }
+  .py-114 {
+    padding: 70px 0;
+  }
+  .layer-3 {
+    height: 70px;
+  }
+  .layer-4 {
+    height: 70px;
+  }
+  .py-87-80 {
+    padding: 70px 0;
+  }
+  .py-101 {
+    padding: 70px 0;
+  }
+  .blue-Ellips2 {
+    top: 39%;
+    left: 9%;
+  }
+  .l-greenEllips7 {
+    top: 64%;
+    right: -37%;
+  }
+  .l-greenEllips2 {
+    top: -6%;
+    left: -48%;
+  }
+  .l-greenEllips6 {
+    bottom: -40%;
+    left: -68%;
+  }
+  .futherCard {
+    max-width: 100%;
+  }
+  .py-80-171 {
+    padding: 70px 0;
+  }
+  .h-362 {
+    height: 250px;
+  }
+  .mb-60 {
+    margin-bottom: 48px;
+  }
+  .container_1140 {
+    max-width: 720px;
+  }
+}
+@media (max-width: 767.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 15px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 22px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 30px;
+    --fs-64: 50px;
+  }
+  .py-103-80 {
+    padding: 60px 0;
+  }
+  .fw-600 {
+    font-weight: 500;
+  }
+  .lh-57 {
+    line-height: 37px;
+  }
+  .mt-40 {
+    margin-top: 36px !important;
+  }
+  .py-114 {
+    padding: 60px 0;
+  }
+  .layer-3 {
+    height: 55px;
+  }
+  .layer-4 {
+    height: 52px;
+  }
+  .lh-52 {
+    line-height: 30px;
+  }
+  .serviceCard {
+    padding: 30px 28px 0;
+    min-height: 290px;
+  }
+  .l-greenEllips6 {
+    bottom: -40%;
+    left: -94%;
+  }
+  .l-greenEllips3 {
+    top: 50%;
+    right: -67%;
+  }
+  .lh-32 {
+    line-height: 26px;
+  }
+  .lh-61 {
+    line-height: 58px;
+  }
+  .max-542 {
+    max-width: 445px;
+  }
+  .py-101 {
+    padding: 60px 0;
+  }
+  .max-476 {
+    max-width: 445px;
+  }
+  .py-80-171 {
+    padding: 60px 0;
+  }
+  .pb-140 {
+    padding-bottom: 60px;
+  }
+  .getTouchCard {
+    padding: 32px;
+  }
+  .inputBox {
+    padding: 2px 2px 2px 22px;
+  }
+  .h-362 {
+    height: 185px;
+  }
+  .mb-60 {
+    margin-bottom: 40px;
+  }
+  .py-87-80 {
+    padding: 60px 0;
+  }
+  .py-22 {
+    padding: 16.8px 0;
+  }
+  .layer-1 {
+    height: 76px;
+  }
+  .container_1140 {
+    max-width: 540px;
+  }
+}
+@media (max-width: 575.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 15px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 20px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 28px;
+    --fs-64: 38px;
+  }
+  .fw-600 {
+    font-weight: 400;
+  }
+  .lh-61 {
+    line-height: 42px;
+  }
+  .my-23-35 {
+    margin: 22px 0 26px;
+  }
+  .hatimg {
+    width: 148.73px;
+    height: 109.97px;
+  }
+  .lh-24 {
+    line-height: 22px;
+  }
+  .serviceCard {
+    padding: 34px 8px 0;
+    min-height: 290px;
+    max-width: 351px;
+  }
+  .py-103-80 {
+    padding: 50px 0;
+  }
+  .lh-52 {
+    line-height: 28px;
+  }
+  .mt-40 {
+    margin-top: 32px !important;
+  }
+  .layer-3 {
+    height: 50px;
+  }
+  .layer-4 {
+    height: 50px;
+  }
+  .py-114 {
+    padding: 50px 0;
+  }
+  .py-87-80 {
+    padding: 50px 0;
+  }
+  .lh-32 {
+    line-height: 22px;
+  }
+  .lh-57 {
+    line-height: 38px;
+  }
+  .gray-line {
+    margin-top: 50px;
+  }
+  .pb-140 {
+    padding-bottom: 50px;
+  }
+  .mb-32 {
+    margin-bottom: 28px;
+  }
+  .py-101 {
+    padding: 50px 0;
+  }
+  .py-80-171 {
+    padding: 50px 0;
+  }
+  .mb-60 {
+    margin-bottom: 40px;
+  }
+  .inputBox {
+    padding: 22px 12px 12px;
+    border-radius: 28px;
+  }
+  .getTouchCard {
+    padding: 14px 10px !important;
+  }
+  .menu {
+    scale: 0.7 !important;
+  }
+  .h-362 {
+    height: unset;
+  }
+  .inputBox {
+    padding: 12px;
+    border-radius: 36px;
+  }
+  .getTouchCard {
+    padding: 64px 10px;
+  }
+  .card-1 {
+    max-width: 351px;
+  }
+  .max-513 {
+    max-width: 270px;
+  }
+  .max-542 {
+    max-width: 270px;
+  }
+  .max-476 {
+    max-width: 270px;
+  }
+  .datacard {
+    max-width: 351px;
+  }
+  .futherCard {
+    max-width: 351px;
+  }
+  .getTouchCard {
+    max-width: 351px;
+  }
+  .l-greenEllips2 {
+    top: -6%;
+    left: -111%;
+  }
+  .blue-Ellips2 {
+    top: 35%;
+    left: 0%;
+    width: 280px;
+    height: 280px;
+  }
+  .l-greenEllips3 {
+    top: 50%;
+    right: -125%;
+  }
+  .blue-Ellips3 {
+    top: 66%;
+    right: -34%;
+    width: 220px;
+    height: 350px;
+  }
+  .l-greenEllips6 {
+    left: -98%;
+    width: 342px;
+    height: 220px;
+  }
+}
