@@ -47,3 +47,8 @@ window.addEventListener("scroll", () => {
     mybutton.setAttribute("style", "display: none;");
   }
 });
+// aos animation
+AOS.init({
+  duration: 1200,
+  once: true,
+});
